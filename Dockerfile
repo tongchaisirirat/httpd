@@ -4,7 +4,7 @@ FROM httpd:2.4
 # ตั้งค่า health check
 HEALTHCHECK --interval=5s \
             --timeout=5s \
-            CMD curl -f http://127.0.0.1:80 || exit 1
+            CMD curl -f http://127.0.0.1:8081 || exit 1
 
 # กำหนด port ที่จะ expose
 EXPOSE 80
