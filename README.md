@@ -21,3 +21,7 @@ dockerhub
 docker login  -u tongchaisirirat
 password : -------------
 ![alt text](image-2.png)
+
+
+# note กรณีที่ ไม่ 2 docker context ต้องกำหนดที่จะใช้ด้วย
+docker context ls
